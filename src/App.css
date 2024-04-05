@@ -44,6 +44,20 @@ td {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-radius: 50%;
+}
+
+td:hover {
+  background-color: lightblue;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+td.selected {
+  background-color: rgb(80, 202, 247);
+  border-radius: 50%;
 }
 
 td:nth-child(3),
@@ -54,4 +68,14 @@ td:nth-child(6) {
 tr:nth-child(3),
 tr:nth-child(6) {
   border-bottom: 3px solid black;
+}
+
+.num-board {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.2em;
+}
+
+button {
+  font-size: 1.5rem;
 }

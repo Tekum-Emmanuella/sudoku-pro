@@ -2,7 +2,7 @@
 
 This project is a complete Sudoku game built using React for the frontend and Rust for the backend logic. It provides a user interface for players to interact with the Sudoku grid, solve the puzzle, and check for errors.
 
-`Features:`
+`Features:` 
 
 Interactive Sudoku grid with cell selection.
 Ability to input numbers into cells.
